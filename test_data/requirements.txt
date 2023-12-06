@@ -1,0 +1,8 @@
+openai
+azure-cognitiveservices-speech
+praat-parselmouth
+nltk
+language-tool-python
+spacy
+transformers
+torch

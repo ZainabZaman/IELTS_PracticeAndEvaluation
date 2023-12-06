@@ -1,0 +1,14 @@
+********************* INCORRECT_CARS*********************
+Cars, a ubiquitous aspects of contemporary live, symbolizes a harmonious blend of technology and conveniences. Beyond they're utilitarian role in transportations, car represents personal freedoms and choices. Ranging from compacts and efficiently models to luxurious and high-performance vehicle, they caters to diverse preference. Cars has not only transformed the ways we moves but also leaves an indelible marks on cultures and urban lifestyles. In essences, these four-wheeled innovations encapsulates modern mobility, influences the daily rhythms of our life.
+
+********************* CORRECT_CARS *********************
+Cars, a ubiquitous aspect of contemporary living, symbolize a harmonious blend of technology and convenience. Beyond their utilitarian role in transportation, cars represent personal freedom and choice. Ranging from compact and efficient models to luxurious and high-performance vehicles, they cater to diverse preferences. Cars have not only transformed the way we move but have also left an indelible mark on culture and urban lifestyles. In essence, these four-wheeled innovations encapsulate modern mobility, influencing the daily rhythm of our lives.
+
+********************* CORRECT_CATS *********************
+Cats, both enchanting and mysterious, grace our homes with their agile presence. These independent creatures captivate with their soft fur, expressive eyes, and a charming repertoire of sounds. Whether elegantly lounging or playfully exploring, cats effortlessly weave a unique bond with their human companions. Their enigmatic charm and occasional regal demeanor make them beloved and cherished members of households worldwide.
+
+********************* INCORRECT_CATS *********************
+Cats, both enchanting and mysteriously, grace our homes with they're agile presence. These independent creatures captivate with they're soft fur, expressive eyes, and a charming repertoires of sounds. Whether elegantly lounging or playfully exploring, cats effortlessly weaves a unique bond with their human companions. Their enigmatic charm and occasionally regal demeanors make them beloved and cherishes members of households worldwide.
+
+********************* ZZ*********************
+The image shows a bar graph displaying the number of coffee and manufacturing sales in the United States from 2016 to 2018. The graph shows that there was a steady increase in sales from 2016 to 2018, with the highest sales occurring in August 2018. The graph also shows that there was a slight decrease in sales in December 2017 and January 2018
