@@ -52,7 +52,7 @@ py speaking_final.py
 - The speaking function returns accuracy, fluency, prosody_score, completeness, avg_pro_score, intonation, overall_pitch, percentage_pitch, grammar_errors, grammar_correctness_score, lexical_diversity_score, score_list for each entry and IELTS band and PTE score after reaching 40 entries for a perticular user ID.
 
 ## IELTS Reading Module
-IELTS reading evaluation can be executed by passing `user_ID`, `question_shown_to_user_by_bot`, `user_text_response` in the `reading` function in the `reading_final.py`. The user response is checked for relevancy such that the user response should is a sub-string of the bot's textand only if the relevancy score is above a certain threshold the response is passed for further processing otherwise the user is prompted to provide a relevant response.
+IELTS reading evaluation can be executed by passing `user_ID`, `question_shown_to_user_by_bot`, `user_text_response` in the `reading` function in the `reading_final.py`. The user response is checked for relevancy such that the user response should is a sub-string of the bot's text and only if the relevancy score is above a certain threshold the response is passed for further processing otherwise the user is prompted to provide a relevant response.
 ```python
 reading(1, 'a hot cup of coffee', "COFFEE")
 ```
