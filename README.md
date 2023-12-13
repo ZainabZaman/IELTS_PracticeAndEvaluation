@@ -39,11 +39,32 @@ listening(4, '.\why-hello-there-103596.wav', "well hello there")
 ```python
 py listening_final.py
 ```
+
 ## IELTS Speaking Module
-IELTS listening evaluation can be executed by passing user_ID, topic_based_text_from_the_bot, user_audio_response in the speaking function in the speaking_final.py. The speaking evaluation is a conversational assessment where the bot evaluates responses from the user through a conversation on a partiular topic. 
+IELTS speaking evaluation can be executed by passing user_ID, topic_based_text_from_the_bot, user_audio_response in the speaking function in the speaking_final.py. The speaking evaluation is a conversational assessment where the bot evaluates responses from the user through a conversation on a partiular topic. 
 ```python
 speaking(2, "How often do you like to travel?", '.\i_like_to_travel_once_or_twice_a_year.wav')
 ```
 ```python
 py speaking_final.py
 ```
+
+## IELTS Reading Module
+IELTS reading evaluation can be executed by passing user_ID, question_shown_to_user_by_bot, user_text_response in the reading function in the reading_final.py such that the user response should is a sub-string of the bot's text.
+```python
+reading(1, 'a hot cup of coffee', "COFFEE")
+```
+```python
+py reading_final.py
+```
+
+## IELTS Writing Module [Image based]
+IELTS writing evaluation [image based] can be executed by passing user_ID, image_path_for_image_to_be_explained, TEXT_image_description_by_user in the writing_image_evaluation function in the writing_image_evaluation_final.py.
+```python
+writing_image_evaluation(6, ".\img01.jpg", "This is an artistic picture showing a blue car floating in the sky among the clouds. The sky looks nice with light and fluffy clouds. The image has a dreamy feel because cars do not fly in real life. There are words on the bottom that say “FAST CAR PIANO MAGE. DREAM. MIDNIGHTS.” It looks like an edit or a fantasy picture because the car is in the air like a big airplane. The colors are soft and give a calm feeling.")
+```
+```python
+py writing_image_evaluation_final.py
+```
+
+
