@@ -39,3 +39,11 @@ listening(4, '.\why-hello-there-103596.wav', "well hello there")
 ```python
 py listening_final.py
 ```
+## IELTS Speaking Module
+IELTS listening evaluation can be executed by passing user_ID, topic_based_text_from_the_bot, user_audio_response in the speaking function in the speaking_final.py. The speaking evaluation is a conversational assessment where the bot evaluates responses from the user through a conversation on a partiular topic. 
+```python
+speaking(2, "How often do you like to travel?", '.\i_like_to_travel_once_or_twice_a_year.wav')
+```
+```python
+py speaking_final.py
+```
