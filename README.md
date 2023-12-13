@@ -9,4 +9,33 @@ This project contains five modules i.e.
 - Speaking evaluation
 - Reading evaluation
 - Writing evaluation [Image based]
-- Writing evaluation [Text based] 
+- Writing evaluation [Text based]
+
+## Getting Started 
+- Clone the repository:
+  ```python
+  git clone https://github.com/ZainabZaman/IELTS_PracticeAndEvaluation.git
+  ```
+- Install the required dependencies:
+  ```python
+  pip install -r requirements.txt
+  ```
+- While executing any of the file replace 'YOUR_OPENAI_API_KEY' in the code with your OpenAI API key and 'YOUR_AZURE_SPEECH_STUDIO_API_KEY' with your azure speech studio key.
+
+## User Class
+The user class contains the following functionalities 
+- `create_user`: Creates a new user if the user ID does not exist.
+- `save_evaluation`: Saves the evaluation results for a user.
+- `load_saved_dict`: Loads the saved evaluation dictionary for a user.
+- `is_user`: Checks if the user exists.
+- `delete_previous_context`: Deletes the previous context for a user.
+- `evaluation_scores`: Computes the relevancy score and updates the evaluation results.
+
+## IELTS Listening Module
+IELTS listening evaluation can be executed by passing user_ID, audio_file_from_the_bot, user_response_text in the listening function in the listening_final.py file such that there can be punctuation variation but the bot audio and the final user response string passed should be the same.
+```python
+listening(4, '.\why-hello-there-103596.wav', "well hello there")
+```
+```python
+py listening_final.py
+```
